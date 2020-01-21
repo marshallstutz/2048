@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>2048</title>
+
+	<script src="C:\Users\marsh\2048\libraries\p5.js"></script>
+	<script src="C:\Users\marsh\2048\libraries\p5.dom.js"></script>
+	<script src="C:\Users\marsh\2048\libraries\p5.sound.js"></script>
+	<script src="C:\Users\marsh\2048\sketch.js"></script>
+	<script src="C:\Users\marsh\2048\board.js"></script>
+	<script src="C:\Users\marsh\2048\ga.js"></script>
+	<script src="C:\Users\marsh\2048\matrix.js"></script>
+	<script src="C:\Users\marsh\2048\nn.js"></script>
+
+	<style>
+		body {
+			margin:0;
+			padding:0;
+			overflow: auto;
+		}
+		canvas {
+			margin:auto;
+		}
+	</style>
+</head>
+<body>
+  <div id="canvascontainer"></div>
+  <p>
+    speed: <input id="speedSlider" type="range" min="1" max="150" value="1"> <span id="speed">1</span>
+    <br/> score: <span id="hs">0</span>
+    <br/> high score: <span id="ahs">0</span>
+	<br/> number of runs: <span id="nr">0</span>
+	<br/> wins: <span id="wins">0</span>
+	<br/> Average score: <span id="avg">0</span>
+  </p>
+  <p>
+    <button id="games">Gamemode: User controlled</button>
+  </p>
+
+
+</body>
+</html>
